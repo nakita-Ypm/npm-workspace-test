@@ -1,0 +1,12 @@
+{
+  "name": "@packages/fizzbuzz",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@packages/tsconfig": "^1.0.0"
+  }
+}

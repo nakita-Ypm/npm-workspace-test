@@ -5,6 +5,7 @@
   },
   "workspaces": ["apps/src", "packages/*"],
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4"
+    "@biomejs/biome": "^1.9.4",
+    "tsx": "^4.19.1"
   }
 }
