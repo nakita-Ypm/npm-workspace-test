@@ -1,6 +1,6 @@
 {
   "extends": ["@packages/tsconfig/packages"],
   "compilerOptions": {
-    "outDir": "./dist"
+    "outDir": "dist"
   }
 }
