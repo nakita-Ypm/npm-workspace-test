@@ -4,7 +4,7 @@
   "scripts": {
     "fmt": "npx @biomejs/biome format --write ./"
   },
-  "workspaces": ["apps/src/*", "packages/*"],
+  "workspaces": ["apps/*", "packages/*"],
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "tsx": "^4.19.1"

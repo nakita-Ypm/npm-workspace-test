@@ -1,9 +1,6 @@
 {
   "extends": ["@packages/tsconfig/packages"],
   "compilerOptions": {
-    "outDir": "./dist",
-    "baseUrl": "./src",
-
-  },
-  "include": ["src/**/*"]
+    "outDir": "./dist"
+  }
 }

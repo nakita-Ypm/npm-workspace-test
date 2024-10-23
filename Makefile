@@ -10,8 +10,5 @@ deps:
 build:
 	rm -rf packages/fizz-buzz/dist/
 	rm -rf apps/src/dist
-	npm run build -w packages/fizzbuzz apps/src
+	npm run build -w packages/fizzbuzz
 	npm run build -w apps/src
-
-tr:
-	tree -I 'node_modules'
