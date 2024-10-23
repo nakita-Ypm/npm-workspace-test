@@ -1,0 +1,10 @@
+{
+  "name": "npm-workspace-test",
+  "scripts": {
+    "fmt": "npx @biomejs/biome format --write ./"
+  },
+  "workspaces": ["apps/src", "packages/*"],
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  }
+}
