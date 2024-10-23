@@ -7,7 +7,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@packages/fizzbuzz": "1.0.0"
+    "@packages/fizzbuzz": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.7.9",
