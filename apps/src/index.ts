@@ -1,4 +1,4 @@
 import { fizzBuzz } from '@packages/fizzbuzz'
 
-console.log('npm workspace')
+console.log('Hello World!')
 console.log(fizzBuzz(100))
