@@ -1,17 +1,14 @@
 {
-  "name": "@apps/src",
-  "version": "1.0.0",
+  "name": "@apps/fizzbuzz",
   "private": true,
-  "type": "module",
-  "exports": "./dist/index.js",
   "scripts": {
     "build": "tsc"
   },
   "dependencies": {
-    "@packages/fizzbuzz": "^1.0.0",
-    "@packages/tsconfig": "^1.0.0"
+    "@packages/fizzbuzz": "*"
   },
   "devDependencies": {
+    "@packages/tsconfig": "*",
     "@types/node": "^22.7.9",
     "typescript": "^5.6.3"
   }

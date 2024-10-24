@@ -1,14 +1,14 @@
 fmt:
 	npm run fmt
 
-exe:
-	npx tsx watch apps/src/index.ts
-
 deps:
 	rm -rf node_modules && npm install
 
 build:
-	rm -rf packages/fizz-buzz/dist/
-	rm -rf apps/src/dist
+	rm -rf packages/fizzbuzz/dist/
+	rm -rf apps/fizzbuzz/dist/
 	npm run build -w packages/fizzbuzz
-	npm run build -w apps/src
+	npm run build -w apps/fizzbuzz
+
+exe:
+	npx tsx watch apps/fizzbuzz/src/index.ts
